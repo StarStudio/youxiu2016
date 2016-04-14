@@ -1,0 +1,99 @@
+*{		
+
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		font-family:微软雅黑,"Microsoft YaHei","Microsoft JhengHei";
+		border: none;
+		color: #333;
+}
+#banner{
+	height: 329px;
+	width: 100%; 
+	background:url(images/titlebg.gif)no-repeat 0 0;
+	background-size:100% 100%;
+}
+#banner img{
+	position: relative;
+	top: 30px;
+	left: 50%;
+	margin-left: -504px;
+	width: 1038px;
+	height: 273px
+}
+#container{
+	width: 1008px;
+	margin-top: 329px;
+	min-width: 1008px;
+	margin: 0 auto;
+}
+#news{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#newsPosition{
+	margin: 0 0 12px 0px;
+	line-height: 40px;
+	border-bottom: solid #E6808C 6px;
+	text-align: left;
+	color: #656565;
+	font-size: 18px;
+}
+#header{
+	height: 121px;
+	width: 100%;
+	border-bottom: solid 2px #BDBDBD;
+	text-align: center;
+	position: relative;
+}
+#header h1{
+	font-size: 2em;
+	margin-top: 31px;
+}
+#header p{
+	bottom: 7px;
+	text-align: left;
+	color: #999999;
+	position: absolute;
+}
+#main,#main p{
+	font-size: 20px;
+	line-height: 25px;
+	/*font-weight: 400;*/
+	color: #000;
+}
+#main h3{
+	font-weight: bold;
+	margin:5px auto;
+}
+#main img{
+	display: block;
+	width: 603px;
+	margin: 25px auto;
+}
+#main a{
+	text-decoration: none;
+}
+#main a:hover{
+	text-decoration: underline;
+}
+#newsFoot{
+	font-size: 18px;
+	color: #999999;
+	margin-top: 74px;
+}
+#foot{
+	margin-top: 98px;
+	margin-bottom: 92px;
+	position:relative;
+	color: #650000;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	z-index:-9999;
+}
+
+#main p{
+	font-size:14px;
+	font-family:"微软雅黑";
+}
